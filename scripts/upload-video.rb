@@ -39,4 +39,3 @@ presentation = YAML::load(STDIN.read)
 upload_video(client, presentation)
 
 puts presentation.to_yaml
-
